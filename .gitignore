@@ -1,0 +1,77 @@
+==========================================
+
+Python & Virtual Environments
+
+==========================================
+
+.venv/
+venv/
+env/
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+
+.env
+.env.*
+.streamlit/secrets.toml
+
+
+
+Raw Data & Corpora (Phase 1)
+
+==========================================
+
+
+NCCN_Guidelines_dataset/
+*.pdf
+# nccn_parsed_corpus.json
+data/
+datasets/
+
+==========================================
+
+Vector Database Storage (Phase 2 & 3)
+
+==========================================
+
+Ignore local Qdrant database files
+
+qdrant_data/
+qdrant_storage/
+local_qdrant/
+*.db
+*.sqlite3
+
+==========================================
+
+Notebooks & IDEs (Phase 1 Exploration)
+
+==========================================
+
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+
+==========================================
+
+OS & System Files
+
+==========================================
+
+.DS_Store
+Thumbs.db
+
+==========================================
+
+Model Weights & Caches (Phase 4 & 6)
+
+==========================================
+
+If you download local huggingface models or BGE weights into the project folder
+
+models/
+.cache/

@@ -1,77 +1,65 @@
-==========================================
-
-Python & Virtual Environments
-
-==========================================
-
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
 .venv/
 venv/
 env/
-pycache/
+ENV/
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
 .pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
 
-
+# ==========================================
+# Secrets & Private Configs (Phase 3 & 7)
+# ==========================================
 .env
 .env.*
 .streamlit/secrets.toml
 
-
-
-Raw Data & Corpora (Phase 1)
-
-==========================================
-
-
+# ==========================================
+# Raw Data & Corpora (Phase 1)
+# ==========================================
 NCCN_Guidelines_dataset/
 *.pdf
-# nccn_parsed_corpus.json
+# nccn_parsed_corpus.json (Uncomment if you want to keep the parsed JSON off Git)
 data/
 datasets/
 
-==========================================
-
-Vector Database Storage (Phase 2 & 3)
-
-==========================================
-
-Ignore local Qdrant database files
-
+# ==========================================
+# Vector Database Storage (Phase 2 & 3)
+# ==========================================
+# Ignore local Qdrant database files since we use Qdrant Cloud
 qdrant_data/
 qdrant_storage/
 local_qdrant/
 *.db
+*.sqlite
 *.sqlite3
 
-==========================================
-
-Notebooks & IDEs (Phase 1 Exploration)
-
-==========================================
-
+# ==========================================
+# Notebooks & IDEs (Phase 1 Exploration)
+# ==========================================
 .ipynb_checkpoints/
 .vscode/
 .idea/
 *.swp
+*.swo
 
-==========================================
-
-OS & System Files
-
-==========================================
-
-.DS_Store
-Thumbs.db
-
-==========================================
-
-Model Weights & Caches (Phase 4 & 6)
-
-==========================================
-
-If you download local huggingface models or BGE weights into the project folder
-
+# ==========================================
+# Model Weights & Caches (Phase 4 & 6)
+# ==========================================
+# If you download local huggingface models or BGE weights into the project folder
 models/
 .cache/
+huggingface_cache/
+
+# ==========================================
+# OS & System Files
+# ==========================================
+.DS_Store
+Thumbs.db

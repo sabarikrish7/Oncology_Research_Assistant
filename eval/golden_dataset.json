@@ -1,0 +1,717 @@
+[
+  {
+    "id": "q_synth_1",
+    "query": "What is the diagnostic yield of limited BRCA1/2 analysis compared to multigene panel testing for pathogenic BRCA1/2 mutations in patients at risk for hereditary breast cancer?",
+    "ground_truth": {
+      "Diagnostic yield of limited BRCA1/2 analysis alone: Not provided explicitly, but implied to be lower than multigene panel testing by the text's statement that multigene panel testing has a 'higher diagnostic yield'.\r\n\r\nDiagnostic yield of multigene panel testing: Higher than limited BRCA1/2 analysis alone, as stated in the Kapoor NS et al. 2015 study.\r\n\r\nPathogenic BRCA1/2 mutations detected by multigene panel testing: Equal rates to pathogenic BRCA1/2 mutations detected by limited BRCA1/2 analysis alone, as stated in the Kapoor NS et al. 2015 study.": "",
+      "References": [
+        "Kapoor NS et al. Multigene panel testing detects equal rates of pathogenic BRCA1/2 mutations and has a higher diagnostic yield compared to limited BRCA1/2 analysis alone in patients at risk for hereditary breast cancer. Ann Surg Oncol 2015;22:3282-3288."
+      ],
+      "Other information": [
+        "Panel testing is not a panacea"
+      ],
+      "Information source": [
+        "JAMA Oncol",
+        "Ann Surg Oncol"
+      ]
+    },
+    "expected_source_id": "62b91b8f",
+    "context": "to scale down? JAMA Oncol 2017;3:1176-1177. Available at: https://www.ncbi.nlm.nih.gov/pubmed/28418452. Kapoor NS, Curcio LD, Blakemore CA, et al. Multigene panel testing detects equal rates of pathogenic BRCA1/2 mutations and has a higher diagnostic yield compared to limited BRCA1/2 analysis alone in patients at risk for hereditary breast cancer. Ann Surg Oncol 2015;22:3282-3288. Available at: http://www.ncbi.nlm.nih.gov/pubmed/26219241. Axilbund JE. Panel testing is not a panacea. J Clin Oncol 2016;34:1433-1435. Available at: https://www.ncbi.nlm.nih.gov/pubmed/26976416. Robson ME, Bradbury AR, Arun B, et al. American Society of Clinical Oncology Policy statement update: genetic and genomic testing for cancer susceptibility. J Clin Oncol 2015;33:3660-3667. Available at:"
+  },
+  {
+    "id": "q_synth_2",
+    "query": "What are the characteristics of Li-Fraumeni syndrome, specifically the prevalence and diversity of constitutional TP53 gene mutations among affected families?",
+    "ground_truth": [
+      {
+        "key": "Prevalence",
+        "value": "The prevalence of constitutional TP53 gene mutations is high among Li-Fraumeni families."
+      },
+      {
+        "key": "Diversity",
+        "value": "The study found a diverse range of TP53 gene mutations in the affected families, with 21 families screened for p53 gene alterations."
+      },
+      {
+        "key": "Clinical significance",
+        "value": "Li-Fraumeni syndrome is associated with an increased risk of childhood choroid plexus carcinoma and other cancers."
+      }
+    ],
+    "expected_source_id": "17d4523d",
+    "context": "https://www.ncbi.nlm.nih.gov/pubmed/27496084. Birch JM, Hartley AL, Tricker KJ, et al. Prevalence and diversity of constitutional mutations in the p53 gene among 21 Li-Fraumeni families. Cancer Res 1994;54:1298-1304. Available at: http://www.ncbi.nlm.nih.gov/pubmed/8118819. Krutilkova V, Trkova M, Fleitz J, et al. Identification of five new families strengthens the link between childhood choroid plexus carcinoma and germline TP53 mutations. Eur J Cancer 2005;41:1597-1603. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15925506. Li FP, Fraumeni JF, Jr. Soft-tissue sarcomas, breast cancer, and other neoplasms. A familial syndrome? Ann Intern Med 1969;71:747-752. Available at: http://www.ncbi.nlm.nih.gov/pubmed/5360287. Li FP, Fraumeni JF, Jr., Mulvihill JJ, et al. A cancer family syndrome"
+  },
+  {
+    "id": "q_synth_3",
+    "query": "What is the recommended timing for performing breast self-examination (BSE) for premenopausal women?",
+    "ground_truth": [
+      "Perform BSE at the end of menses"
+    ],
+    "expected_source_id": "93d87b05",
+    "context": "should be familiar with their breasts and promptly report changes to their health care provider. Periodic, consistent BSE may facilitate breast self awareness. Premenopausal women may find BSE most informative when performed at the end of menses.' /c62 self-exam training and education 4th bullet was modified: 'Discuss risk-reducing mastectomy ...' option of on case-by-case basis /c62 5th bullet was added: 'Address psychosocial, social, and quality-of-life aspects of undergoing risk-reducing mastectomy.' /c62 /c183 Other cancer risks 11th bullet was modified: ' surveillance based on individual family histories.' /c62 Additional Target /c183 Reproductive options Bullet, 'For patients of reproductive age, advise about options for prenatal diagnosis and assisted reproduction including"
+  },
+  {
+    "id": "q_synth_4",
+    "query": "What is the recommended surveillance strategy for germline TP53 mutation carriers with Li-Fraumeni syndrome?",
+    "ground_truth": [
+      "Clinical guidelines recommend biochemical and imaging surveillance for germline TP53 mutation carriers with Li-Fraumeni syndrome."
+    ],
+    "expected_source_id": "81d3e9e7",
+    "context": "U, Schiffman J, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: a prospective observational study. Lancet Oncol 2011;12:559567. Available at: http://www.ncbi.nlm.nih.gov/pubmed/21601526. 401. Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. Lancet Oncol 2016;17:1295-1305. Available at: https://www.ncbi.nlm.nih.gov/pubmed/27501770. 402. Asdahl PH, Ojha RP, Hasle H. Cancer screening in Li-Fraumeni Syndrome. JAMA Oncol 2017;3:1645-1646. Available at: https://www.ncbi.nlm.nih.gov/pubmed/28772307. 403. Avigad S, Peleg D, Barel D, et al. Prenatal diagnosis in Li-Fraumeni syndrome. J Pediatr"
+  },
+  {
+    "id": "q_synth_5",
+    "query": "What are the reported cases of Peutz-Jeghers syndrome associated with breast cancer, ovarian sex cord tumor with annular tubules, and adenoma malignum?",
+    "ground_truth": [
+      {
+        "Key fact 1": "Clements et al. (2009) reported a case of Peutz-Jeghers syndrome with breast cancer, bilateral sex cord tumor with annular tubles, and adenoma malignum caused by STK11 gene mutation."
+      },
+      {
+        "Key fact 2": "The same patient was also reported to have multiple malignancies."
+      }
+    ],
+    "expected_source_id": "c1918410",
+    "context": "NCCN Guidelines Version 3.2019 Genetic/Familial High-Risk Assessment: Breast and Ovarian 205. Clements A, Robison K, Granai C, et al. A case of Peutz-Jeghers syndrome with breast cancer, bilateral sex cord tumor with annular tubules, and adenoma malignum caused by STK11 gene mutation. Int J Gynecol Cancer 2009;19:1591-1594. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19955943. 206. Kondi-Pafiti A, Bakalianou K, Iavazzo C, et al. Endometrial carcinoma and ovarian sex cord tumor with annular tubules in a patient with history of Peutz-Jeghers syndrome and multiple malignancies. Eur J Gynaecol Oncol 2011;32:452-454. Available at: http://www.ncbi.nlm.nih.gov/pubmed/21941977. Lele SM, Sawh RN, Zaharopoulos P, et al. Malignant ovarian sex cord tumor with annular tubules in a patient with"
+  },
+  {
+    "id": "q_synth_6",
+    "query": "What is the long-term risk of breast cancer associated with lobular neoplasia?",
+    "ground_truth": {
+      "finding": "According to Bodian et al. (1996), there is a high-risk association between lobular neoplasia and breast cancer, with a reported 10-year cumulative incidence rate of approximately 35%."
+    },
+    "expected_source_id": "71cae268",
+    "context": "NCCN Guidelines Version 3.2019 Genetic/Familial High-Risk Assessment: Breast and Ovarian Weitzel JN, Lagos VI, Cullinane CA, et al. Limited family structure and BRCA gene mutation status in single cases of breast cancer. JAMA 2007;297:2587-2595. Available at: http://www.ncbi.nlm.nih.gov/pubmed/17579227. Bodian CA, Perzin KH, Lattes R. Lobular neoplasia. Long term risk of breast cancer and relation to other factors. Cancer 1996;78:1024-1034. Available at: http://www.ncbi.nlm.nih.gov/pubmed/8780540. Beral V, Doll R, Hermon C, et al. Ovarian cancer and oral contraceptives: collaborative reanalysis of data from 45 epidemiological studies including 23,257 women with ovarian cancer and 87,303 controls. Lancet 2008;371:303-314. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18294997. Chlebowski"
+  },
+  {
+    "id": "q_synth_7",
+    "query": "What types of cancers are included in Lynch syndrome/hereditary non-polyposis colorectal cancer?",
+    "ground_truth": [
+      "What types of cancers are included in Lynch syndrome/hereditary non-polyposis colorectal cancer? Ovarian/fallopian tube/primary peritoneal cancers"
+    ],
+    "expected_source_id": "262ba92a",
+    "context": "and primary peritoneal cancers are e included. Ovarian/fallopian tube/primary peritoneal cancers are component tumors of Lynch syndrome/hereditary non-polyposis colorectal cancer; be attentive for clinical evidence of this syndrome. See NCCN Guidelines for Colorectal Cancer Screening. Note: All recommendations are category 2A unless otherwise indicated. Clinical Trials: NCCN believes that the best management of any cancer patient is in a clinical trial. Participation in clinical trials is especially encouraged. An unaffected individual with a family history of one or more of the following: f /c183 A known mutation in a breast cancer susceptibility gene within the family 2 breast primaries in single individual /c183 /c179 2 individuals with breast primaries on the same side of family"
+  },
+  {
+    "id": "q_synth_8",
+    "query": "What are the histopathology, FIGO stage, and BRCA mutation status of ovarian cancers from the Gilda Radner Familial Ovarian Cancer Registry?",
+    "ground_truth": [
+      {
+        "Histopathology": "unknown",
+        "FIGO Stage": "not mentioned",
+        "BRCA Mutation Status": "mentioned as part of a registry"
+      }
+    ],
+    "expected_source_id": "227a15bf",
+    "context": "203. Werness BA, Ramus SJ, DiCioccio RA, et al. Histopathology, FIGO stage, and BRCA mutation status of ovarian cancers from the Gilda Radner Familial Ovarian Cancer Registry. Int J Gynecol Pathol 2004;23:29-34. Available at: http://www.ncbi.nlm.nih.gov/pubmed/14668547. 204. Ayadi-Kaddour A, Bouraoui S, Bellil K, et al. Colonic adenocarcinoma and bilateral malignant ovarian sex cord tumor with annular tubules in Peutz-Jeghers syndrome. Pathologica 2004;96:117-120. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15524052. MS-63"
+  },
+  {
+    "id": "q_synth_9",
+    "query": "What is the survival rate of men with BRCA2 mutations who develop prostate cancer?",
+    "ground_truth": {
+      "Rapid progression of prostate cancer": true,
+      "Decreased prostate cancer-specific survival": true,
+      "Men from multiple breast cancer families are affected": true
+    },
+    "expected_source_id": "dbbb8e61",
+    "context": "at: http://www.ncbi.nlm.nih.gov/pubmed/12114473. van Asperen CJ, Brohet RM, Meijers-Heijboer EJ, et al. Cancer risks in BRCA2 families: estimates for sites other than breast and ovary. J Med Genet 2005;42:711-719. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16141007. Narod SA, Neuhausen S, Vichodez G, et al. Rapid progression of prostate cancer in men with a BRCA2 mutation. Br J Cancer 2008;99:371-374. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18577985. Thorne H, Willems AJ, Niedermayr E, et al. Decreased prostate cancer-specific survival of men with BRCA2 mutations from multiple breast cancer families. Cancer Prev Res (Phila) 2011;4:1002-1010. Available at: http://www.ncbi.nlm.nih.gov/pubmed/21733824. Tryggvadottir L, Vidarsdottir L, Thorgeirsson T, et al. Prostate cancer"
+  },
+  {
+    "id": "q_synth_10",
+    "query": "What is the family history criteria for considering genetic testing for prostate cancer patients?",
+    "ground_truth": {
+      "Clinical significance": [
+        "Family history of pancreatic cancer at any age with 2 close blood relatives with breast and/or ovarian and/or pancreatic cancer at any age.",
+        "Aglressive prostate cancer (Gleason score 7) or aggressive prostate cancer (Gleason score 7).",
+        "Testing of unaffected individuals should only be considered when an appropriate affected family member is unavailable for testing, or if no affected family member is available and then the unaffected family member with the highest likelihood of a mutation."
+      ]
+    },
+    "expected_source_id": "fb6e5c2f",
+    "context": "any age.' /c62 /c179 /c179 or aggressive prostate cancer (Gleason score 7) 5th bullet was modified: 'Personal history of pancreatic cancer at any age with 2 close blood relatives with breast and/or ovarian and/or pancreatic at any age.' /c183 /c179 /c179 /c179 or aggressive prostate cancer (Gleason score 7) or aggressive prostate cancer (Gleason score 7) /c183 Family history only : Clinical judgement should be used to determine if the patient has reasonable likelihood of a mutation...' /c62 1st bullet was added ' 2nd bullet was modified: 'Testing of unaffected should only be considered when .' /c62 individuals an appropriate affected family member is unavailable for testing. family members no affected family member is available and then the unaffected family member with the highest"
+  },
+  {
+    "id": "q_synth_11",
+    "query": "What is the approximate reduction in breast cancer risk for women carrying a BRCA1/2 mutation after undergoing RRSO?",
+    "ground_truth": {
+      "type": "approximate",
+      "value": 50,
+      "study": "Various studies including Eisen et al.",
+      "details": [
+        {
+          "study": "Eisen et al.",
+          "odds_ratio": 0.44,
+          "ci": [
+            0.29,
+            0.66
+          ],
+          "P_value": "<0.001"
+        },
+        {
+          "study": "Other studies",
+          "hazard_ratios": [
+            0.47,
+            0.3
+          ],
+          "CIs": [
+            [
+              0.29,
+              0.77
+            ],
+            [
+              0.11,
+              0.84
+            ]
+          ],
+          "P_values": [
+            "<0.001",
+            "0.022"
+          ]
+        }
+      ]
+    },
+    "expected_source_id": "c7827fba",
+    "context": "risk of breast cancer in carriers of a BRCA1/2 mutation by approximately 50%. 204, 205, 209, 210 In the casecontrol international study by Eisen et al., a 56% (odds ratio=0.44; 95% CI, 0.29-0.66; P <0.001) and a 43% (odds ratio=0.57; 95% CI, 0.281.15; P =0.11) breast cancer risk reduction (adjusted for oral contraceptive use and parity) was reported following RRSO in carriers of a BRCA1 and a BRCA2 mutation, respectively. 210 Hazard ratios of 0.47 (95% CI, 0.29-0.77) 204 and 0.30 (95% CI, 0.11-0.84; P =0.022) 208 were reported in two other studies comparing breast cancer risk in women with a BRCA1/2 mutation who had undergone RRSO with carriers of these mutations who opted for surveillance only. These studies are further supported by a recent meta-analysis which found similar reductions"
+  },
+  {
+    "id": "q_synth_12",
+    "query": "What is the recommended screening/management approach for an individual from a family with a known deleterious BRCA1/2 mutation who tests negative for the familial mutation?",
+    "ground_truth": [
+      "Follow according to the recommendations in the NCCN Guidelines for Breast MS-16"
+    ],
+    "expected_source_id": "13a5a4ee",
+    "context": "breast cancer in BRCA1/2 carriers. An individual with a known deleterious BRCA1/2 mutation in a close family member who does not undergo gene testing should be followed according to the same screening/management guidelines as a carrier of a BRCA1/2 mutation. An individual from a family with a known deleterious BRCA1/2 mutation who tests negative for the familial mutation should be followed according to the recommendations in the NCCN Guidelines for Breast MS-16"
+  },
+  {
+    "id": "q_synth_13",
+    "query": "What are some possible genetic predispositions or family history indicators for an individual's risk of developing thyroid cancer, diffuse gastric cancer, aggressive prostate cancer, or hamartomatous polyps of the GI tract?",
+    "ground_truth": [
+      {
+        "category": "family history",
+        "description": "Family member with same side of family with and aggressive prostate cancer (Gleason score 7)"
+      },
+      {
+        "category": "family history",
+        "description": "Known mutation in a breast cancer susceptibility gene within the family"
+      },
+      {
+        "category": "family history",
+        "description": "Maternal or paternal 2 breast primaries, either in 1 individual or 2 different individuals from same side of family"
+      }
+    ],
+    "expected_source_id": "3323cc1a",
+    "context": "thyroid cancer, dermatologic manifestations and/or macrocephaly; ; diffuse gastric cancer' (Also for an unaffected individual) /c62 6th bullet was reorganized and modified: ' /c179 /c179 /c179 1 family member on same side of family with a and aggressive prostate cancer (Gleason score 7) hamartomatous polyps of GI tract on the same side of family /c183 An unaffected individual 'A known mutation in a breast cancer susceptibility gene within the family' was moved as the first bullet. /c62 ' 2 breast primaries, either in 1 individual or 2 different individuals from the same side of family (maternal or paternal)' was separated into 2nd and 3rd bullets. /c62 /c179 /c183 Footnotes /c62 Footnote 'e' was modified by adding: 'Ovarian/fallopian tube/primary peritoneal cancers are component tumors of"
+  },
+  {
+    "id": "q_synth_14",
+    "query": "What standardized human pedigree nomenclature recommendations are available for genetic testing?",
+    "ground_truth": [
+      {
+        "source": "Pedigree Standardization Task Force of the National Society of Genetic Counselors",
+        "year": 1995,
+        "reference": "Am J Hum Genet 1996;56:745-752"
+      },
+      {
+        "source": "Bennett RL, Steinhaus KA, Uhrich SB, et al.",
+        "year": 2008,
+        "reference": "J Genet Couns 2008;17:424-433"
+      }
+    ],
+    "expected_source_id": "2dba6c49",
+    "context": "and risk perceptions of women with breast and/or ovarian cancer considering testing for BRCA1 and BRCA2. J Clin Oncol 1999;17:10401046. Available at: http://www.ncbi.nlm.nih.gov/pubmed/10071299. 195. Bennett RL, French KS, Resta RG, Doyle DL. Standardized human pedigree nomenclature: update and assessment of the recommendations of the National Society of Genetic Counselors. J Genet Couns 2008;17:424-433. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18792771. 196. Bennett RL, Steinhaus KA, Uhrich SB, et al. Recommendations for standardized human pedigree nomenclature. Pedigree Standardization Task Force of the National Society of Genetic Counselors. Am J Hum Genet 1995;56:745-752. Available at: http://www.ncbi.nlm.nih.gov/pubmed/7887430. 197. Calzone KA, Soballe PW. Genetic testing for"
+  },
+  {
+    "id": "q_synth_15",
+    "query": "What is the role of BRCA2 gene in DNA interstrand cross-link repair?",
+    "ground_truth": {
+      "Brief summary": "BRCA2 plays a role in replication-coupled DNA interstrand cross-link repair.",
+      "Cited studies": [
+        "Cipak L, Watanabe N, Bessho T. Nat Struct Mol Biol 2006;13:729-733."
+      ],
+      "Other relevant information": [
+        "Localization of BRCA2 gene to chromosome 13q12-13",
+        "Risk of breast cancer in carriers of BRCA gene mutations"
+      ]
+    },
+    "expected_source_id": "5a660ddc",
+    "context": "Cipak L, Watanabe N, Bessho T. The role of BRCA2 in replicationcoupled DNA interstrand cross-link repair in vitro. Nat Struct Mol Biol 2006;13:729-733. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16845393. Wooster R, Neuhausen SL, Mangion J, et al. Localization of a breast cancer susceptibility gene, BRCA2, to chromosome 13q12-13. Science 1994;265:2088-2090. Available at: http://www.ncbi.nlm.nih.gov/pubmed/8091231. ACOG Practice Bulletin No. 103: Hereditary breast and ovarian cancer syndrome. Obstet Gynecol 2009;113:957-966. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19305347. Whittemore AS. Risk of breast cancer in carriers of BRCA gene mutations. N Engl J Med 1997;337:788-789. Available at: http://www.ncbi.nlm.nih.gov/pubmed/9289641. Metcalfe KA, Poll A, Royer R, et al."
+  },
+  {
+    "id": "q_synth_16",
+    "query": "What are the cancers associated with LFS, as mentioned in the guidelines?",
+    "ground_truth": [
+      "Premenopausal breast cancer",
+      "Bone and soft tissue sarcomas",
+      "Acute leukemia",
+      "Brain tumor",
+      "Adrenocortical carcinoma",
+      "Choroid plexus carcinoma",
+      "Colon cancer",
+      "Early onset of other adenocarcinomas or childhood cancers"
+    ],
+    "expected_source_id": "ff1bf449",
+    "context": "35 y with a negative BRCA1/BRCA2 test /c62 FOLLOW-UP LFS testing criteria not met LFS testing criteria met f See Follow-up (LIFR-2) Individualized recommendations according to personal and family history Cancers associated wit ude but are not limited to: h LFS incl Premenopausal breast cancer /c183 Bone and soft tissue sarcomas /c183 Acute leukemia /c183 Brain tumor /c183 Adrenocortical carcinoma /c183 /c183 Choroid plexus carcinoma Colon cancer /c183 Early onset of other adenocarcinomas or other childhood cancers /c183 a Li FP, Fraumeni JF, Jr., Mulvihill JJ, et al. A cancer family syndrome in twenty-four kindreds. Cancer Res 1988;48:5358-5362. b To date, there have been no reports of Ewing sarcoma, GIST, desmoid tumor or angiosarcoma in mutation carriers. TP53 c Chompret A, Abel A,"
+  },
+  {
+    "id": "q_synth_17",
+    "query": "What are the modified requirements for inclusion of women with breast or ovarian cancer, considering their Ashkenazi Jewish descent?",
+    "ground_truth": [
+      "requirements may be modified",
+      "women of Ashkenazi Jewish descent with breast or ovarian cancer at any age"
+    ],
+    "expected_source_id": "56698839",
+    "context": "/c62 /c179 /c183 Footnotes /c62 Footnote 'e' was modified by adding: 'Ovarian/fallopian tube/primary peritoneal cancers are component tumors of hereditary non-polyposis colorectal cancer/Lynch syndrome...' Footnote 'f' was modified: '...requirements for inclusion may be modified (eg, women of Ashkenazi Jewish descent with breast or ovarian cancer at any age).' /c62 or pancreatic For hamartomatous colon polyps in conjunction with breast cancer and hyperpigmented macules of the lips and oral mucosa...' /c62 Footnote'h' was added: ' BR/OV-2 /c183 Focused physical exam clarified by adding: ' noting the findings related to Cowden syndrome conducted by physician or nurse' and : /c62 Cowden syndrome specific Dermatologic, including oral mucosa /c55 Head circumference /c55 Thyroid /c55 (enlarged"
+  },
+  {
+    "id": "q_synth_18",
+    "query": "Should I perform molecular genetic testing for hereditary breast/ovarian cancer syndrome on a patient who has received an allogeneic bone marrow transplant?",
+    "ground_truth": {
+      "is_unreliable_due_to_contamination": true,
+      "alternative_source_of_dna": [
+        "fibroblast culture",
+        "buccal samples"
+      ]
+    },
+    "expected_source_id": "a87c3918",
+    "context": "should be discussed. First- or second-degree blood relative meeting any of the above criteria /c62 Personal history of epithelial ovarian cancer /c183 f a One or more of these criteria is suggestive of hereditary breast/ovarian cancer syndrome that warrants further personalized risk assessment, genetic counseling, and often genetic testing and management. The maternal and paternal sides should be considered independently. Melanoma has been reported in some HBOC families. Patients who have received an allogeneic bone marrow transplant should not have molecular genetic testing via blood or buccal samples due to unreliable test results from contamination by donor DNA. If available, DNA should be extracted from a fibroblast culture. If this source of DNA is not possible, buccal samples can be"
+  },
+  {
+    "id": "q_synth_19",
+    "query": "What are the guidelines for managing patients with cancer?",
+    "ground_truth": [
+      {
+        "recommendation_category": "2A",
+        "encouragement_to_participate_in_clinical_trials": true
+      }
+    ],
+    "expected_source_id": "dff7d8e5",
+    "context": "see COWD-1. Note: All recommendations are category 2A unless otherwise indicated. Clinical Trials: NCCN believes that the best management of any cancer patient is in a clinical trial. Participation in clinical trials is especially encouraged. See Testing Criteria for Hereditary Breast/Ovarian Syndrome (HBOC-1) Li-Fraumeni Syndrome (LIFR-1) Cowden Syndrome (COWD-1) BR/OV-2"
+  },
+  {
+    "id": "q_synth_20",
+    "query": "What are some cancers associated with Li-Fraumeni Syndrome?",
+    "ground_truth": [
+      "premenopausal breast cancer",
+      "bone and soft tissue sarcomas",
+      "acute leukemia",
+      "brain tumor"
+    ],
+    "expected_source_id": "e400f40f",
+    "context": "National Comprehensive Cancer Network? NCCN NCCN Guidelines Version 1.2013 Genetic/Familial High-Risk Assessment: Breast and Ovarian Risk Assessment, Counseling, and Management: Li-Fraumeni Syndrome The approach to families with other hereditary breast cancer syndromes, such as LFS, reflects that of hereditary breast/ovarian cancer in many ways. However, there are some syndrome-specific differences with regard to assessment and management. In the case of LFS, there are multiple associated cancers, both pediatric and adult, that should be reflected in the expanded pedigree (see Guidelines section on Li-Fraumeni Syndrome Testing Criteria). Cancers associated with LFS include but are not limited to premenopausal breast cancer, bone and soft tissue sarcomas, acute leukemia, brain tumor,"
+  },
+  {
+    "id": "q_synth_21",
+    "query": "What is the percentage of breast cancer risk reduction in individuals with a BRCA2 mutation receiving tamoxifen compared to placebo?",
+    "ground_truth": {
+      "type": "numerical",
+      "value": 62
+    },
+    "expected_source_id": "7478a0e2",
+    "context": "fine sectioning of the ovaries and fallopian tubes. 88, 89 The protocol published by the College of American Pathologists (2009) can be consulted for details on specimen evaluation. 211 Other topics which should be addressed with respect to RRSO include the increased risk of osteoporosis and cardiovascular disease associated with premature menopause, as well as the potential effects of possible cognitive changes, accelerated bone loss, and vasomotor symptoms on quality of life. Chemoprevention An evaluation of the subset of healthy individuals with a BRCA1/2 mutation in the BCPT study revealed that breast cancer risk was reduced by 62% in those with a BRCA2 mutation receiving tamoxifen relative to placebo (risk ratio=0.38; 95% CI, 0.06-1.56). However, tamoxifen use was not associated with"
+  },
+  {
+    "id": "q_synth_22",
+    "query": "What is the recommendation for communicating reproductive risks to research participants identified through cancer panels, as per recent studies?",
+    "ground_truth": [
+      "A genetic counselor should offer clinically significant germline mutations found on cancer panels to research participants.",
+      "The ABOUT study (2015) and subsequent studies support this approach.",
+      "There is a responsibility for genetic counselors to communicate reproductive risks with autosomal recessive conditions found on cancer panels."
+    ],
+    "expected_source_id": "78f2d39c",
+    "context": "population: the ABOUT study. JAMA Oncol 2015:1-10. Available at: http://www.ncbi.nlm.nih.gov/pubmed/26426480. Mets S, Tryon R, Veach PM, Zierhut HA. Genetic counselors' experiences regarding communication of reproductive risks with autosomal recessive conditions found on cancer panels. J Genet Couns 2016;25:359-372. Available at: http://www.ncbi.nlm.nih.gov/pubmed/26454646. Forrest LE, Young MA. Clinically significant germline mutations in cancer-causing genes identified through research studies should be offered to research participants by genetic counselors. J Clin Oncol 2016;34:898-901. Available at: http://www.ncbi.nlm.nih.gov/pubmed/26786918. Genetic Information Non-Discrimination Act of 2008 (GINA). Vol. Public Law No. 110-233. Available at:"
+  },
+  {
+    "id": "q_synth_23",
+    "query": "What is the prevalence of germline mutations in cancer genes among pancreatic cancer patients with a positive family history?",
+    "ground_truth": [
+      "Prevalence: 119-127",
+      "Source: Chaffee KG et al. Genet Med 2018"
+    ],
+    "expected_source_id": "7983dd91",
+    "context": "Chaffee KG, Oberg AL, McWilliams RR, et al. Prevalence of germline mutations in cancer genes among pancreatic cancer patients with a positive family history. Genet Med 2018;20:119-127. Available at: https://www.ncbi.nlm.nih.gov/pubmed/28726808. Hu C, Hart SN, Polley EC, et al. Association between inherited germline mutations in cancer predisposition genes and risk of pancreatic cancer. JAMA 2018;319:2401-2409. Available at: https://www.ncbi.nlm.nih.gov/pubmed/29922827. 243. Siegel RL, Miller KD, Jemal A. Cancer statistics, 2018. CA Cancer J Clin 2018;68:7-30. Available at: https://www.ncbi.nlm.nih.gov/pubmed/29313949. Simard EP, Ward EM, Siegel R, Jemal A. Cancers with increasing incidence trends in the United States: 1999 through 2008. CA Cancer J Clin 2012;62:118-128. Available at:"
+  },
+  {
+    "id": "q_synth_24",
+    "query": "What chemoprevention options are available for breast cancer patients with BRCA mutations?",
+    "ground_truth": [
+      {
+        "text": "Tamoxifen and raloxifene",
+        "type": "options"
+      },
+      {
+        "text": "Only very limited data is available for these agents in patients with mutations",
+        "type": "caveat"
+      }
+    ],
+    "expected_source_id": "293034b0",
+    "context": "by adding: 'Other chemoprevention options for breast cancer include tamoxifen and raloxifene; however, only very limited data with these agents are available in patients with mutations.' BRCA HBOC-A 2 of 2 /c183 HBOC management for men 4th bullet, 'Consider prostate cancer screening starting at age 40 y' replaced 'Adhere to screening guidelines for prostate cancer (See NCCN Prostate Cancer Early Detection Guidelines).' /c62 and women HBOC management for men /c183 /c62 2nd bullet, 'No specific guidelines exist for pancreatic cancer and melanoma, but screening may be individualized based on cancers observed in the family' replaced 'Refer to appropriate NCCN guidelines for other cancer screening.' Reproductive options /c183 1st bullet, 'For patients of reproductive age, advise about options"
+  },
+  {
+    "id": "q_synth_25",
+    "query": "What is the mean age at diagnosis of ovarian cancer for BRCA1/2 carriers?",
+    "ground_truth": "50.8 years",
+    "expected_source_id": "5502812c",
+    "context": "of breast cancer in a BRCA1/2 mutation carrier, 36, 202, 203 the absence of reliable methods of early detection and the poor prognosis associated with advanced ovarian cancer have lent support for the performance of bilateral risk reduction salpingo-oophorectomy (RRSO) after completion of childbearing in these women. In the studies of Rebbeck et al, the mean age at diagnosis of ovarian cancer was 50.8 years for BRCA1/2 carriers. 204 The effectiveness of RRSO in reducing the risk of ovarian cancer in carriers of a BRCA1/2 mutation has been demonstrated in a number of studies. For example, results of a meta-analysis involving 10 studies of BRCA1/2 mutation carriers showed an approximately 80% reduction in the risk of ovarian or fallopian cancer following RRSO. 205 In a large prospective"
+  },
+  {
+    "id": "q_synth_26",
+    "query": "What is the prevalence of BRCA1 and BRCA2 founder mutations among Ashkenazi women with ovarian cancer or early-onset breast cancer?",
+    "ground_truth": [
+      {
+        "key": "prevalence_of_mutations",
+        "value": "60% of ovarian cancer patients and 30% of early-onset breast cancer patients among Ashkenazi women"
+      }
+    ],
+    "expected_source_id": "4761845c",
+    "context": "| 33. Abeliovich D, Kaduri L, Lerer I, et al. The founder mutations 185delAG and 5382insC in BRCA1 and 6174delT in BRCA2 appear in 60% of ovarian cancer and 30% of early-onset breast cancer patients among Ashkenazi women. Am J Hum Genet 1997;60:505-514. Available at: http://www.ncbi.nlm.nih.gov/pubmed/9042909.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 40. Risch HA, McLaughlin JR, Cole DE, et al. Prevalence and penetrance of germline BRCA1 and BRCA2 mutations in a population series of 649 women with ovarian cancer. Am J Hum Genet 2001;68:700-710. Available at: http://www.ncbi.nlm.nih.gov/pubmed/11179017.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| 34. Levy-Lahad E, Catane R, Eisenberg S, et al. Founder BRCA1 and BRCA2 mutations in Ashkenazi Jews in Israel: frequency and differential penetrance in ovarian cancer and in breast-ovarian cancer families. Am J Hum Genet 1997;60:1059-1067. Available at: http://www.ncbi.nlm.nih.gov/pubmed/9150153. 35. Petrucelli N, Daly MB, Bars Culver JO, Feldman GL. BRCA1 and BRCA2 hereditary breast/ovarian cancer. GeneReviews; 2011. Available at: Available at: http://www.ncbi.nlm.nih.gov/books/NBK1247/. 36. Antoniou A, Pharoah PD, Narod S, et al. Average risks of breast and ovarian cancer associated with BRCA1 or BRCA2 mutations detected in case Series unselected for family history: a combined analysis of 22 studies. Am J Hum Genet 2003;72:1117-1130. Available at: http://www.ncbi.nlm.nih.gov/pubmed/12677558. 37. Ford D, Easton DF, Bishop DT, et al. Risks of cancer in BRCA1- mutation carriers. Breast Cancer Linkage Consortium. Lancet 1994;343:692-695. Available at: http://www.ncbi.nlm.nih.gov/pubmed/7907678. 38. King MC, Marks JH, Mandell JB. Breast and ovarian cancer risks due to inherited mutations in BRCA1 and BRCA2. Science 2003;302:643-646. Available at: http://www.ncbi.nlm.nih.gov/pubmed/14576434. 39. Finch A, Beiner M, Lubinski J, et al. Salpingo-oophorectomy and the risk of ovarian, fallopian tube, and peritoneal cancers in women with a BRCA1 or BRCA2 Mutation. JAMA 2006;296:185-192. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16835424. | 41. Atchley DP, Albarracin CT, Lopez A, et al. Clinical and pathologic characteristics of patients with BRCA-positive and BRCA-negative breast cancer. J Clin Oncol 2008;26:4282-4288. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18779615. 42. Eerola H, Heikkila P, Tamminen A, et al. Relationship of patients' age to histopathological features of breast tumours in BRCA1 and BRCA2 and mutation-negative breast cancer families. Breast Cancer Res 2005;7:R465-469. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15987451. 43. Lakhani SR, Reis-Filho JS, Fulford L, et al. Prediction of BRCA1 status in patients with breast cancer using estrogen receptor and basal phenotype. Clin Cancer Res 2005;11:5175-5180. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16033833. 44. Lakhani SR, Van De Vijver MJ, Jacquemier J, et al. The pathology of familial breast cancer: predictive value of immunohistochemical markers estrogen receptor, progesterone receptor, HER-2, and p53 in patients with mutations in BRCA1 and BRCA2. J Clin Oncol 2002;20:2310-2318. Available at: http://www.ncbi.nlm.nih.gov/pubmed/11981002. 45. Lee E, McKean-Cowdin R, Ma H, et al. Characteristics of Triple- Negative Breast Cancer in Patients With a BRCA1 Mutation: Results From a Population-Based Study of Young Women. J Clin Oncol 2011. Available at: http://www.ncbi.nlm.nih.gov/pubmed/22010008. 46. Young SR, Pilarski RT, Donenberg T, et al. The prevalence of BRCA1 mutations among young women with triple-negative breast cancer. BMC Cancer 2009;9:86. Available at: |"
+  },
+  {
+    "id": "q_synth_27",
+    "query": "What is the relationship between BRCA2 mutation carrier status and breast cancer risk?",
+    "ground_truth": [
+      {
+        "study": "BRCA2 mutation carriers: a case-control study. Lancet Oncol 2006;7:402-406.",
+        "finding": "Increased breast cancer risk"
+      },
+      {
+        "study": "Exposure to diagnostic radiation and risk of breast cancer among carriers of BRCA1/2 mutations: retrospective cohort study (GENE-RAD-RISK). BMJ 2012;345:e5660.",
+        "finding": "No association between exposure to diagnostic radiation and increased breast cancer risk among BRCA1/2 mutation carriers"
+      },
+      {
+        "study": "Annual screening strategies in BRCA1 and BRCA2 gene mutation carriers: a comparative effectiveness analysis. Cancer 2012;118:2021-2030.",
+        "finding": "Annual mammography is an effective screening strategy for breast cancer among BRCA1/2 mutation carriers"
+      },
+      {
+        "study": "Screening for familial ovarian cancer: poor survival of BRCA1/2 related cancers. J Med Genet 2009;46:593-597.",
+        "finding": "Poor prognosis and survival rates for BRCA1/2-related breast cancers"
+      }
+    ],
+    "expected_source_id": "db213d0b",
+    "context": "BRCA2 mutation carriers: a case-control study. Lancet Oncol 2006;7:402-406. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16648044. 233. Pijpe A, Andrieu N, Easton DF, et al. Exposure to diagnostic radiation and risk of breast cancer among carriers of BRCA1/2 mutations: retrospective cohort study (GENE-RAD-RISK). BMJ 2012;345:e5660. Available at: http://www.ncbi.nlm.nih.gov/pubmed/22956590. 234. Lowry KP, Lee JM, Kong CY, et al. Annual screening strategies in BRCA1 and BRCA2 gene mutation carriers: a comparative effectiveness analysis. Cancer 2012;118:2021-2030. Available at: http://www.ncbi.nlm.nih.gov/pubmed/21935911. oro 235. Evans DG, Gaarenstroom KN, Stirling D, et al. Screening for familial ovarian cancer: poor survival of BRCA1/2 related cancers. J Med Genet 2009;46:593-597."
+  },
+  {
+    "id": "q_synth_28",
+    "query": "What are some studies that support the use of magnetic resonance imaging (MRI) for breast cancer screening in women with a hereditary risk of breast cancer?",
+    "ground_truth": [
+      {
+        "study_name": "MARIBS",
+        "journal": "Lancet",
+        "year": "2005",
+        "abstract_text": "Screening with magnetic resonance imaging and mammography of a UK population at high familial risk of breast cancer: a prospective multicentre cohort study"
+      },
+      {
+        "study_name": "Magnetic resonance imaging and mammography in women with a hereditary risk of breast cancer",
+        "journal": "J Natl Cancer Inst",
+        "year": "2001",
+        "abstract_text": "A study that supports the use of MRI for breast cancer screening in women with a hereditary risk"
+      }
+    ],
+    "expected_source_id": "5ed1c261",
+    "context": "National Comprehensive Cancer Network? NCCN NCCN Guidelines Version 1.2013 Genetic/Familial High-Risk Assessment: Breast and Ovarian genetic predisposition. N Engl J Med 2004;351:427-437. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15282350. 188. Leach MO, Boggis CR, Dixon AK, et al. Screening with magnetic resonance imaging and mammography of a UK population at high familial risk of breast cancer: a prospective multicentre cohort study (MARIBS). Lancet 2005;365:1769-1778. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15910949. 189. Stoutjesdijk MJ, Boetes C, Jager GJ, et al. Magnetic resonance imaging and mammography in women with a hereditary risk of breast cancer. J Natl Cancer Inst 2001;93:1095-1102. Available at: http://www.ncbi.nlm.nih.gov/pubmed/11459871. 190. Kuhl CK,"
+  },
+  {
+    "id": "q_synth_29",
+    "query": "What are some key references for understanding the roles of BRCA1 and BRCA2 in cancer?",
+    "ground_truth": [
+      {
+        "text": "BRCA1 and BRCA2: from molecular genetics to clinical medicine. J Clin Oncol 1998;16:1969-1977."
+      },
+      {
+        "text": "Cancer susceptibility and the functions of BRCA1 and BRCA2. Cell 2002;108:171-182."
+      }
+    ],
+    "expected_source_id": "deb3e802",
+    "context": "NCCN Guidelines Version 3.2019 Genetic/Familial High-Risk Assessment: Breast and Ovarian Blackwood MA, Weber BL. BRCA1 and BRCA2: from molecular genetics to clinical medicine. J Clin Oncol 1998;16:1969-1977. Available at: http://www.ncbi.nlm.nih.gov/pubmed/9586917. Venkitaraman AR. Cancer susceptibility and the functions of BRCA1 and BRCA2. Cell 2002;108:171-182. Available at: http://www.ncbi.nlm.nih.gov/pubmed/11832208. Pilarski R. Cowden syndrome: a critical review of the clinical literature. J Genet Couns 2009;18:13-27. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18972196. Schneider KA, Garber J. Li-Fraumeni syndrome. GeneReviews; 2013. Available at: http://www.ncbi.nlm.nih.gov/books/NBK1311/. Oliveira C, Bordin MC, Grehan N, et al. Screening E-cadherin in gastric cancer families"
+  },
+  {
+    "id": "q_synth_30",
+    "query": "What is the term used to describe a graphic illustration of family history?",
+    "ground_truth": [
+      "Pedigree"
+    ],
+    "expected_source_id": "5b861386",
+    "context": "relationships within a family combined with the medical history of individual family members. When represented in diagram form using standardized symbols and terminology, it is usually referred to as a pedigree or family tree. Founder effect A pathogenic or likely pathogenic variant observed with high frequency in a population founded by a small ancestral group that was once geographically or culturally isolated, in which one or more of the founders was a carrier of the mutant gene. Germline The cells from which eggs or sperm (ie, gametes) are derived. Kindred An extended family. Pedigree A graphic illustration of family history. Penetrance A characteristic of a genotype; it refers to the likelihood that a clinical condition will occur when a particular genotype is present. Proband The"
+  },
+  {
+    "id": "q_synth_31",
+    "query": "What is the estimated positive predictive value of Classic LFS criteria for detecting germline TP53 mutations?",
+    "ground_truth": {
+      "value": 56,
+      "type": "percentage"
+    },
+    "expected_source_id": "edea5eda",
+    "context": "with a sarcoma, and a first-degree relative diagnosed with cancer at age 45 years or younger, and an additional first- or seconddegree relative in the same lineage with cancer diagnosed at age < 45 years or a sarcoma at any age (see Guidelines section on Li-Fraumeni Syndrome Testing Criteria). Classic LFS criteria have been estimated to have a high positive predictive value (estimated at 56%) as well as a high specificity, although the sensitivity is relatively low (estimated at 40%). 98 Thus, it is not uncommon for individuals with patterns of cancer outside of these criteria to be carriers of germline TP53 mutations. 109, 114 Classic LFS criteria make up one set of criteria included in the Guidelines to guide selection of individuals for TP53 gene mutation testing (see Guidelines"
+  },
+  {
+    "id": "q_synth_32",
+    "query": "What is the recommended approach to genetic testing for an Ashkenazi Jewish individual with no known familial mutation?",
+    "ground_truth": [
+      "First test for the three common mutations. If negative, consider comprehensive genetic testing if ancestry also includes non-Ashkenazi Jewish relatives or other HBOC criteria are met."
+    ],
+    "expected_source_id": "4e9e4659",
+    "context": "trials is especially encouraged. history o For both affected and unaffected individuals of Ashkenazi Jewish descent with no known familial mutation, first test for the three common mutations. Then, if negative for the three mutations and ancestry also includes non-Ashkenazi Jewish relatives or other HBOC criteria is met, consider comprehensive genetic testing. If all affected family members are deceased, consider testing of paraffinderived DNA from deceased relatives, if DNA is obtainable. For both affected and unaffected individuals who are non-Ashkenazi Jewish and who have no known familial mutation, comprehensive genetic testing is the approach, if done. If no mutation is found, consider other hereditary breast/ovary cancer syndromes such as Li-Fraumeni ( ) and/or Cowden syndrome ( )."
+  },
+  {
+    "id": "q_synth_33",
+    "query": "What are the criteria for diagnosing Cowden syndrome?",
+    "ground_truth": [
+      {
+        "condition": "Cowden syndrome",
+        "criterion1": "Personal history of breast cancer plus one or more of: diagnosed age with 1 close blood relative with breast cancer, diagnosed at any age with 2 close blood relatives with breast cancer, or diagnosed at any age with epithelial ovarian cancer, pancreatic cancer (Gleason score 7), and/or thyroid enlargement or nodularity on palpation"
+      }
+    ],
+    "expected_source_id": "657e7192",
+    "context": "by physician or nurse' and : /c62 Cowden syndrome specific Dermatologic, including oral mucosa /c55 Head circumference /c55 Thyroid /c55 (enlarged or nodular on palpation) HBOC-1 /c183 A personal history of breast cancer + one or more of the following Diagnosed age with 1 close blood relative with breast cancer /c62 2nd sub-bullet was modified: ' ' /c179 /c46/c46/c46 any 50 y /c163 6th sub-bullet was modified: 'Diagnosed at any age with 2 close blood relatives with breast cancer at any age.' /c62 /c179 and/or epithelial ovarian cancer 7th sub-bullet was modified: 'Diagnosed at any age with 2 close blood relatives with pancreatic cancer at any age.' /c62 /c179 /c179 or aggressive prostate cancer (Gleason score 7) 5th bullet was modified: 'Personal history of pancreatic cancer at any age"
+  },
+  {
+    "id": "q_synth_34",
+    "query": "What is the approximate reduction in breast cancer risk achieved by bilateral risk reduction mastectomy in moderate- and high-risk women, as reported in studies with median follow-up periods of 13-14 years?",
+    "ground_truth": [
+      "at least 90%"
+    ],
+    "expected_source_id": "92638e94",
+    "context": "analyses with median follow-up periods of 13-14 years have indicated that bilateral risk reduction mastectomy (RRM) decreased the risk of developing breast cancer by at least 90% in moderate- and high-risk women and in known BRCA1/2 mutation MS-17"
+  },
+  {
+    "id": "q_synth_35",
+    "query": "What is the association between hereditary diffuse gastric cancer and lobular breast cancer?",
+    "ground_truth": [
+      {
+        "text": "Hereditary diffuse gastric cancer: association with lobular breast cancer.",
+        "source": "Schrader KA, Masciari S, Boyd N, et al. Fam Cancer 2008;7:7382."
+      }
+    ],
+    "expected_source_id": "1b4ff988",
+    "context": "hereditary diffuse gastric cancer: assessment of 42 new families and review of genetic screening criteria. J Med Genet 2004;41:508-517. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15235021. Kaurah P, MacMillan A, Boyd N, et al. Founder and recurrent CDH1 mutations in families with hereditary diffuse gastric cancer. JAMA 2007;297:2360-2372. Available at: http://www.ncbi.nlm.nih.gov/pubmed/17545690. Schrader KA, Masciari S, Boyd N, et al. Hereditary diffuse gastric cancer: association with lobular breast cancer. Fam Cancer 2008;7:7382. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18046629. MS-27"
+  },
+  {
+    "id": "q_synth_36",
+    "query": "What are the inherited p53 gene mutations in breast cancer, and what are their clinical characteristics?",
+    "ground_truth": [
+      {
+        "mutation_position": "germline",
+        "cancer_type": "breast",
+        "reference": "Sidransky D, Tokino T, Helzlsouer K, et al. Inherited p53 gene mutations in breast cancer. Cancer Res 1992;52:2984-2986."
+      },
+      {
+        "mutation_position": "germline",
+        "cancer_type": "breast",
+        "clinical_characteristics": "Li Fraumeni Syndrome and beyond",
+        "reference": "Gonzalez KD, Noltner KA, Buzin CH, et al. Beyond Li Fraumeni Syndrome: clinical characteristics of families with p53 germline mutations. J Clin Oncol 2009;27:1250-1256."
+      }
+    ],
+    "expected_source_id": "e57a4c7d",
+    "context": "95. Thompson D, Easton D. Variation in cancer risks, by mutation position, in BRCA2 mutation carriers. Am J Hum Genet 2001;68:410419. Available at: http://www.ncbi.nlm.nih.gov/pubmed/11170890. 96. What are the key statistics about breast cancer in men? 2009. Available at: Available at: http://www.cancer.org/docroot/CRI/content/CRI_2_4_1X_What_are_the _key_statistics_for_male_breast_cancer_28.asp?sitearea=. Accessed March 1, 2010. 97. Sidransky D, Tokino T, Helzlsouer K, et al. Inherited p53 gene mutations in breast cancer. Cancer Res 1992;52:2984-2986. Available at: http://www.ncbi.nlm.nih.gov/pubmed/1581912. 98. Gonzalez KD, Noltner KA, Buzin CH, et al. Beyond Li Fraumeni Syndrome: clinical characteristics of families with p53 germline mutations. J Clin Oncol 2009;27:1250-1256. Available"
+  },
+  {
+    "id": "q_synth_37",
+    "query": "What are the studies that evaluated breast cancer screening using magnetic resonance imaging (MRI) and mammography for women at high familial risk of breast cancer?",
+    "ground_truth": [
+      219.4538,
+      220.1095,
+      221.1432
+    ],
+    "expected_source_id": "24ba9149",
+    "context": "J Med 2004;351:427-437. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15282350. 219. Leach MO, Boggis CR, Dixon AK, et al. Screening with magnetic resonance imaging and mammography of a UK population at high familial risk of breast cancer: a prospective multicentre cohort study (MARIBS). Lancet 2005;365:1769-1778. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15910949. 220. Stoutjesdijk MJ, Boetes C, Jager GJ, et al. Magnetic resonance imaging and mammography in women with a hereditary risk of breast cancer. J Natl Cancer Inst 2001;93:1095-1102. Available at: http://www.ncbi.nlm.nih.gov/pubmed/11459871. 221. Buist DS, Porter PL, Lehman C, et al. Factors contributing to mammography failure in women aged 40-49 years. J Natl Cancer Inst 2004;96:1432-1440. Available at:"
+  },
+  {
+    "id": "q_synth_38",
+    "query": "What is the effect of hormone replacement therapy on breast cancer risk reduction after bilateral prophylactic oophorectomy in BRCA1 and BRCA2 mutation carriers?",
+    "ground_truth": [
+      {
+        "study_name": "PROSE Study Group",
+        "journal": "J Clin Oncol",
+        "year": "2005",
+        "reference_url": "http://www.ncbi.nlm.nih.gov/pubmed/16219936"
+      },
+      {
+        "study_name": "Hormone therapy and the risk of breast cancer in BRCA1 mutation carriers",
+        "journal": "J Natl Cancer Inst",
+        "year": "2008",
+        "reference_url": "http://www.ncbi.nlm.nih.gov/pubmed/18812548"
+      },
+      {
+        "study_name": "Menopausal hormone therapy in BRCA1 mutation carriers: uncertainty and caution",
+        "journal": "J Natl Cancer Inst",
+        "year": "2008",
+        "reference_url": "http://www.ncbi.nlm.nih.gov/pubmed/18812547"
+      },
+      {
+        "study_name": "Prophylactic oophorectomy and hormone replacement therapy: protection at what price?",
+        "journal": "J Clin Oncol",
+        "year": "2008",
+        "reference_url": ""
+      }
+    ],
+    "expected_source_id": "e734bb10",
+    "context": "replacement therapy on breast cancer risk reduction after bilateral prophylactic oophorectomy in BRCA1 and BRCA2 mutation carriers: the PROSE Study Group. J Clin Oncol 2005;23:7804-7810. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16219936. Eisen A, Lubinski J, Gronwald J, et al. Hormone therapy and the risk of breast cancer in BRCA1 mutation carriers. J Natl Cancer Inst 2008;100:1361-1367. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18812548. Chlebowski RT, Prentice RL. Menopausal hormone therapy in BRCA1 mutation carriers: uncertainty and caution. J Natl Cancer Inst 2008;100:1341-1343. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18812547. Garber JE, Hartman AR. Prophylactic oophorectomy and hormone replacement therapy: protection at what price? J Clin Oncol"
+  },
+  {
+    "id": "q_synth_39",
+    "query": "What is the estimated lifetime risk of developing breast cancer for carriers of ATM mutations?",
+    "ground_truth": {
+      "lifetime risk": 38
+    },
+    "expected_source_id": "7f417d6e",
+    "context": "of relatives with ataxia-telangiectasia showed an estimated RR of 2.8 (90% CI, 2.2-3.7; P < .001). 447  Other analyses of patients with breast cancer showed that about 1% had an ATM mutation. 69,70,113,448 An analysis of 82 Dutch patients with early-onset breast cancer showed that 8.5% (n = 7) of the patients had a detected ATM mutation. 449 The association between specific types of ATM genetic variants and breast cancer susceptibility is less clear, 86-89  with some evidence showing that certain missense mutations may act in a dominant-negative fashion to increase cancer risk, relative to truncating mutations. 86,87  A meta-analysis including five studies showed that ATM mutation carriers have a 38% lifetime risk of developing breast cancer, with carriers of the c.7271T>G missense"
+  },
+  {
+    "id": "q_synth_40",
+    "query": "What is the distinction between sporadic cancer and cancer that occurs in people who carry a germline pathogenic or likely pathogenic variant?",
+    "ground_truth": [
+      {
+        "key": "Definition of Sporadic Cancer",
+        "value": "Cancer developing in people who do not carry a high-risk pathogenic or likely pathogenic variant"
+      },
+      {
+        "key": "Influence on Sporadic Cancer",
+        "value": "Genetic background may influence the distinction"
+      }
+    ],
+    "expected_source_id": "dc805963",
+    "context": "A characteristic of a genotype; it refers to the likelihood that a clinical condition will occur when a particular genotype is present. Proband The individual through whom a family with a genetic disorder is ascertained. In males this is called a propositus, and in females it is called a proposita. Sporadic cancer This term has two meanings. It is sometimes used to differentiate cancers occurring in people who do not have a germline pathogenic or likely pathogenic variant that confers increased susceptibility to cancer from cancers occurring in people who are known to carry a variant. Cancer developing in people who do not carry a high-risk pathogenic or likely pathogenic variant is referred to as sporadic cancer. The distinction is not absolute, because genetic background may influence"
+  },
+  {
+    "id": "q_synth_41",
+    "query": "What is the 10-year survival rate among PALB2 carriers with breast cancer?",
+    "ground_truth": {
+      "answer": "48%",
+      "confidence": null,
+      "related_fact": "This survival rate is significantly lower than those of BRCA1 mutation carriers (72%) and non-carriers (75%)."
+    },
+    "expected_source_id": "e0d03fa1",
+    "context": "contralateral breast cancer was reported in 10% of PALB2 carriers. 501 This study also showed that 10-year survival among PALB2 carriers with breast cancer was 48%, compared to 72% in BRCA1 mutation carriers and 75% in non-carriers ( P < .001). Further, 10year survival among those with tumors \u22652 cm was substantially worse (32.4%) than those with tumors <2 cm (82.4%) (HR, 7.04; 95% CI, 2.4720.07; P < .001). RAD51C and RAD51D Genes in the RAD51 protein family are involved in homologous recombination and DNA repair. RAD51C and RAD51D have been shown to be associated with increased risk for ovarian cancer. Panel testing of germline DNA in women with ovarian cancer have shown that the prevalence rate of the RAD51C or RAD51D pathogenic or likely pathogenic variant is about 1%. 68,70,185  In a"
+  },
+  {
+    "id": "q_synth_42",
+    "query": "What is the frequency of BRCA1 and BRCA2 mutations in male breast cancer cases from a population-based study?",
+    "ground_truth": [
+      {
+        "source": "Basham VM, Lipscombe JM, Ward JM, et al. (2002)",
+        "key_fact": "BRCA1 and BRCA2 mutations were found in approximately 10% of male breast cancer cases."
+      },
+      {
+        "source": "Couch FJ, Farid LM, DeShano ML, et al. (1996)",
+        "key_fact": "BRCA2 germline mutations were identified in male breast cancer cases and breast cancer families."
+      }
+    ],
+    "expected_source_id": "1789db19",
+    "context": "and ovarian cancer. J Med Genet 2016;53:465-471. Available at: https://www.ncbi.nlm.nih.gov/pubmed/26928436. 162. Basham VM, Lipscombe JM, Ward JM, et al. BRCA1 and BRCA2 mutations in a population-based study of male breast cancer. Breast Cancer Res 2002;4:R2. Available at: http://www.ncbi.nlm.nih.gov/pubmed/11879560. 163. Couch FJ, Farid LM, DeShano ML, et al. BRCA2 germline mutations in male breast cancer cases and breast cancer families. Nat Genet 1996;13:123-125. Available at: http://www.ncbi.nlm.nih.gov/pubmed/8673091. 164. Ding YC, Steele L, Kuan CJ, et al. Mutations in BRCA2 and PALB2 in male breast cancer cases from the United States. Breast Cancer Res Treat 2011;126:771-778. Available at: http://www.ncbi.nlm.nih.gov/pubmed/20927582. 165. Friedman LS, Gayther SA, Kurosaki T, et"
+  },
+  {
+    "id": "q_synth_43",
+    "query": "What is the frequency of BRCA mutations in Ashkenazi Jewish men with prostate cancer?",
+    "ground_truth": [
+      {
+        "Type": "Cohort Study",
+        "Findings": [
+          {
+            "Study 1 (Kirchhoff et al., 2004)": "BRCA mutations are present in approximately 2.5% of Ashkenazi Jewish men with prostate cancer.",
+            "Study 2 (Gallagher et al., 2010)": "Germline BRCA mutations denote a clinicopathologic subset of prostate cancer, but no frequency specified."
+          },
+          {
+            "Study 3 (Hamel et al., 2003)": "Founder mutations in BRCA1/2 are not frequent in Canadian Ashkenazi Jewish men with prostate cancer."
+          }
+        ]
+      }
+    ],
+    "expected_source_id": "54aeb8ec",
+    "context": "Available at: http://www.ncbi.nlm.nih.gov/pubmed/23569316. 225. Kirchhoff T, Kauff ND, Mitra N, et al. BRCA mutations and risk of prostate cancer in Ashkenazi Jews. Clin Cancer Res 2004;10:2918-2921. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15131025. 226. Gallagher DJ, Gaudet MM, Pal P, et al. Germline BRCA mutations denote a clinicopathologic subset of prostate cancer. Clin Cancer Res 2010;16:2115-2121. Available at: http://www.ncbi.nlm.nih.gov/pubmed/20215531. 227. Hamel N, Kotar K, Foulkes WD. Founder mutations in BRCA1/2 are not frequent in Canadian Ashkenazi Jewish men with prostate cancer. BMC Med Genet 2003;4:7. Available at: https://www.ncbi.nlm.nih.gov/pubmed/12911837. 228. Nastiuk KL, Mansukhani M, Terry MB, et al. Common mutations in BRCA1 and BRCA2 do not contribute to"
+  },
+  {
+    "id": "q_synth_44",
+    "query": "What is recommended for individuals who do not meet criteria for testing but are still considered at increased risk of familial breast cancer?",
+    "ground_truth": [
+      "appropriate pre-test counseling",
+      "risk-reduction strategies (e.g., change in frequency or modalities used for breast cancer screening)",
+      "follow NCCN Guidelines for Breast Cancer Screening and Diagnosis"
+    ],
+    "expected_source_id": "148bdffc",
+    "context": "appropriate pre-test counseling. A genetic counselor and/or a medical geneticist should be involved in this process. Those not meeting criteria for testing who are still considered at increased risk of familial breast cancer are also likely to benefit from appropriate riskreduction strategies (e.g., a change in the frequency of, or modalities used for, breast cancer screening). 5 The panel recommends that these individuals follow recommendations in the NCCN Guidelines for Breast Cancer Screening and Diagnosis. Formal Risk Assessment and Genetic Counseling Risk Assessment Cancer genetic risk assessment and genetic counseling is a multi-step process of identifying and counseling individuals at risk for familial or hereditary cancer. MS-11"
+  },
+  {
+    "id": "q_synth_45",
+    "query": "What are some examples of studies that used preimplantation genetic diagnosis for BRCA1/2 mutations?",
+    "ground_truth": [
+      {
+        "study_title": "Preimplantation genetic diagnosis for BRCA1 exon 13 duplication mutation using linked polymorphic markers resulting in a live birth.",
+        "journal": "Prenatal Diagnosis",
+        "year": "2008",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/18302307"
+      },
+      {
+        "study_title": "Preimplantation genetic diagnosis for BRCA1/2--a novel clinical experience.",
+        "journal": "Prenatal Diagnosis",
+        "year": "2009",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/19248143"
+      }
+    ],
+    "expected_source_id": "17309b28",
+    "context": "NCCN Guidelines Version 3.2019 Genetic/Familial High-Risk Assessment: Breast and Ovarian Cancer 2009;8:441-449. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19554475. 356. Jasper MJ, Liebelt J, Hussey ND. Preimplantation genetic diagnosis for BRCA1 exon 13 duplication mutation using linked polymorphic markers resulting in a live birth. Prenat Diagn 2008;28:292-298. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18302307. 357. Sagi M, Weinberg N, Eilat A, et al. Preimplantation genetic diagnosis for BRCA1/2--a novel clinical experience. Prenat Diagn 2009;29:508-513. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19248143. 358. Sidransky D, Tokino T, Helzlsouer K, et al. Inherited p53 gene mutations in breast cancer. Cancer Res 1992;52:2984-2986. Available at:"
+  },
+  {
+    "id": "q_synth_46",
+    "query": "What is the recommended approach for genetic counseling when a patient has cancer and a family history of diffuse gastric cancer?",
+    "ground_truth": [
+      {
+        "statement": "Genetic counseling is highly recommended"
+      },
+      {
+        "statement": "A genetic counselor, medical geneticist, oncologist, surgeon, oncology nurse, or other health professional with expertise and experience in cancer genetics should be involved early"
+      },
+      {
+        "statement": "Referral to a cancer genetics professional is recommended"
+      }
+    ],
+    "expected_source_id": "9b636009",
+    "context": "cancer with a family history of diffuse gastric cancer, i CD j Genetic counseling is highly recommended when genetic testing is offered and after results are disclosed. A genetic counselor, medical geneticist, oncologist, surgeon, oncology nurse, or other health professional with expertise and experience in cancer genetics should be involved early in counseling patients who potentially meet criteria for an inherited syndrome. Referral to cancer genetics professional recommended j See Assessment (BR/OV-2) BR/OV-1"
+  },
+  {
+    "id": "q_synth_47",
+    "query": "What reproductive options should patients of reproductive age be advised on, considering pre-implantation genetic diagnosis?",
+    "ground_truth": {
+      "Clinical guidelines recommend advising patients of reproductive age on: Prenatal diagnosis AND assisted reproduction, including pre-implantation genetic diagnosis, for those expressing the desire that their offspring not carry a familial mutation (previously updated to apply to 'patients of reproductive age' rather than 'couples'). For patients aged 20-30 years, annual MRI-only screening may be sufficient based on physician's discretion. Radiation exposure concerns in Li-Fraumeni Syndrome warrant consideration of surveillance studies like the one published by Villani et al., but no specific guidance is provided for these cases.": "options_for_prenatal_diagnosis_and_assisted_reproduction_including_pre-implantation_genetic_diagnosis"
+    },
+    "expected_source_id": "58406351",
+    "context": "/c183 Reproductive options Bullet, 'For patients of reproductive age, advise about options for prenatal diagnosis and assisted reproduction including pre-implantation genetic diagnosis' replaced 'For couples expressing the desire that their offspring not carry a familial mutation, advise about options for prenatal diagnosis and assisted reproduction, including pre-implantation genetic diagnosis.' TP53 /c62 /c183 Footnotes Footnote '2' was modified by adding: ' for patients age 20-30 y, annual MRI-only screening may be sufficient based on physician's discretion.' Given theoretical concerns with harmful effects of radiation exposure in LFS, /c62 Footnote '4' was added: 'A surveillance study has been published that utilizes these screening approaches (Villani A, Tabori U, Schiffman J, et al."
+  },
+  {
+    "id": "q_synth_48",
+    "query": "What percentage of males with breast cancer who were not selected based on family history test positive for a germline BRCA2 mutation?",
+    "ground_truth": {
+      "answer": "4%-14%",
+      "key_facts": [
+        [
+          "study selection",
+          "high-risk families"
+        ],
+        [
+          "breast cancer risk by age 80 years for males with BRCA2 mutation",
+          "6.9%"
+        ]
+      ]
+    },
+    "expected_source_id": "f0a40c19",
+    "context": "role for BRCA testing for cases based solely on the finding of TIC during pathology evaluation for gynecological indications. Male carriers of a BRCA gene mutation also have a greater risk for cancer susceptibility. 53 In one study of 26 high-risk families with at least one case of male breast cancer, 77% demonstrated a BRCA2 mutation. 29 However, among males with breast cancer who were not selected on the basis of family history, only 4%-14% tested positive for a germline BRCA2 mutation. 93, 94 For males with a BRCA2 mutation, the risk of breast cancer by age 80 years has been estimated at 6.9%. 95 In contrast, for men without such a mutation, the lifetime risk of breast cancer has been estimated at about 1/10th of 1% (1 in 1,000). 96 Li-Fraumeni Syndrome Li-Fraumeni syndrome (LFS) is a"
+  },
+  {
+    "id": "q_synth_49",
+    "query": "What changes were made to the genetic testing recommendation for family members without known familial mutations of PTEN?",
+    "ground_truth": {
+      "PTEN genetic testing recommendation was modified: 'Consider comprehensive testing family member... if unaffected, test' Family member tested and tested outcomes were 'Mutation found' or 'Not tested or no mutation found'. If negative for familial mutation, the screening recommendation changed to 'Cancer screening as per NCCN Screening Guidelines'. No known familial mutation PTEN Genetic testing recommendation was modified: 'Consider comprehensive testing family member...' of an affected patient or if unaffected, test Test outcomes were modified: ' Mutation found' Family member tested and ' Not tested or no mutation found' Family member tested and If negative for familial mutation, the screening recommendation was changed from 'Breast Cancer as per NCCN Breast Cancer Screening and Diagnosis Guidelines' to 'Cancer screening as per NCCN Screening Guidelines'. PTEN /c183 Footnotes Footnote 'k' was modified by adding: 'For additional": "",
+      "key_facts": [
+        "PTEN genetic testing recommendation changed for family members without known familial mutations",
+        "Cancer screening guidelines updated for these individuals"
+      ]
+    },
+    "expected_source_id": "6d3ab963",
+    "context": "was added: 'Insufficient evidence exists in the literature to include fibrocystic disease of the breast, fibromas, and uterine fibroids as diagnostic criteria.' COWD-2 /c183 For no known familial mutation PTEN Genetic testing recommendation was modified: 'Consider comprehensive testing family member...' /c62 of an affected of patient or if unaffected, test Test outcomes were modified: /c62 ' Mutation found' /c55 Family member tested and ' Not tested or no mutation found' /c55 Family member tested and /c183 If negative for familial mutation, the screening recommendation was changed from 'Breast Cancer as per NCCN Breast Cancer Screening and Diagnosis Guidelines' to 'Cancer screening as per NCCN Screening Guidelines.' PTEN /c183 Footnotes Footnote 'k' was modified by adding: 'For additional"
+  },
+  {
+    "id": "q_synth_50",
+    "query": "When should premenopausal women perform breast self-exam training for optimal awareness?",
+    "ground_truth": [
+      {
+        "type": "recommendation",
+        "text": "Premenopausal women may find BSE most informative when performed at the end of menses."
+      }
+    ],
+    "expected_source_id": "df3c1b7b",
+    "context": "report changes to their health care provider. Periodic, consistent BSE may facilitate breast self awareness. Premenopausal women may find BSE most informative when performed at the end of menses.' awareness self-exam training and education /c62 1st bullet was modified: ' 4th bullet was modified: 'Discuss risk-reducing mastectomy option of on case-by-case basis and /c62 6th bullet was added: 'Address psychosocial, social, and quality-oflife aspects of undergoing risk-reducing mastectomy and/or salpingooophorectomy.' /c62 Note: All recommendations are category 2A unless otherwise indicated. Clinical Trials: NCCN believes that the best management of any cancer patient is in a clinical trial. Participation in clinical trials is especially encouraged. /c183 Footnotes /c62 Footnote '4' was"
+  }
+]

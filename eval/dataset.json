@@ -1,0 +1,42 @@
+[
+  {
+    "id": "q1",
+    "query": "What is the targeted therapy for KRAS G12C mutated non-small cell lung cancer?"
+  },
+  {
+    "id": "q2",
+    "query": "Is trastuzumab used for HER2-negative breast cancer?"
+  },
+  {
+    "id": "q3",
+    "query": "What is the survival rate for stage 4 melanoma?"
+  },
+  {
+    "id": "q4",
+    "query": "What are the latest treatments for advanced non-small cell lung cancer?"
+  },
+  {
+    "id": "q5",
+    "query": "Are there any clinical trials for CAR-T cell therapy in pediatric leukemia?"
+  },
+  {
+    "id": "q6",
+    "query": "What are the NCCN guidelines for managing metastatic prostate cancer?"
+  },
+  {
+    "id": "q7",
+    "query": "How effective is pembrolizumab in treating mismatch repair deficient colorectal cancer?"
+  },
+  {
+    "id": "q8",
+    "query": "What is the recommended dosage for capecitabine in breast cancer patients?"
+  },
+  {
+    "id": "q9",
+    "query": "Are PARP inhibitors effective for BRCA-mutated ovarian cancer?"
+  },
+  {
+    "id": "q10",
+    "query": "What are the common side effects of immune checkpoint inhibitors in renal cell carcinoma?"
+  }
+]

@@ -1,7 +1,7 @@
 import json
 from datasets import Dataset
 from ragas import evaluate
-from ragas.metrics import faithfulness, answer_relevancy, context_precision, context_recall
+from ragas.metrics import Faithfulness, AnswerRelevancy, ContextPrecision, ContextRecall
 from ragas.llms import LangchainLLMWrapper
 from ragas.embeddings import LangchainEmbeddingsWrapper
 from langchain_ollama import ChatOllama
@@ -29,7 +29,7 @@ def rerun_ragas():
         # NOTE: RAGAS 0.4+ requires metrics to be instantiated!
         ragas_results = evaluate(
             ragas_dataset,
-            metrics=[faithfulness, answer_relevancy, context_precision, context_recall],
+            metrics=[Faithfulness(), AnswerRelevancy(), ContextPrecision(), ContextRecall()],
             llm=ragas_llm,
             embeddings=ragas_emb
         )

@@ -1,6 +1,7 @@
 import os
 import time
 import uuid
+import hashlib
 from typing import Optional, List, Dict, Any
 from pydantic import BaseModel, Field
 import fitz  # PyMuPDF
@@ -20,9 +21,7 @@ class OncologyChunkMetadata(BaseModel):
     )
     publication_date: str = Field(..., description="Year of publication")
     section: Optional[str] = Field(None, description="Guideline section/heading")
-    chunk_id: str = Field(
-        default_factory=lambda: str(uuid.uuid4()), description="Unique identifier"
-    )
+    chunk_id: str = Field(default="", description="Unique identifier")
 
 
 class DocumentChunk(BaseModel):
@@ -65,9 +64,11 @@ class AdvancedIngestionPipeline:
                 publication_date=year,
                 section="Tabular Data",
             )
+            table_text = table.export_to_markdown(doc=result.document)
+            meta.chunk_id = str(uuid.UUID(hashlib.md5(table_text.encode('utf-8')).hexdigest()))
             raw_chunks.append(
                 DocumentChunk(
-                    text=table.export_to_markdown(doc=result.document), metadata=meta
+                    text=table_text, metadata=meta
                 )
             )
 
@@ -112,6 +113,7 @@ class AdvancedIngestionPipeline:
                         publication_date=year,
                         section="Aggregated Clinical Prose",
                     )
+                    meta.chunk_id = str(uuid.UUID(hashlib.md5(chunk.encode('utf-8')).hexdigest()))
                     raw_chunks.append(DocumentChunk(text=chunk, metadata=meta))
 
         return {

@@ -13,7 +13,7 @@ from eval.retrieval_metrics import calculate_hit_rate, calculate_mrr, calculate_
 import json
 from datasets import Dataset
 from ragas import evaluate
-from ragas.metrics.collections import faithfulness, answer_relevancy, context_precision, context_recall
+from ragas.metrics import Faithfulness, AnswerRelevancy, ContextPrecision, ContextRecall
 from ragas.llms import LangchainLLMWrapper
 from ragas.embeddings import LangchainEmbeddingsWrapper
 from langchain_ollama import ChatOllama
@@ -21,9 +21,16 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 
 def run_evaluation():
     eval_dir = Path(__file__).parent
-    dataset_path = eval_dir / "golden_dataset.json"
-    results_path = eval_dir / "snapshot_results.json"
-    report_path = eval_dir / "snapshot_report.md"
+    from src.config import DOC_EMBEDDING_MODEL
+    
+    if "MedCPT" in DOC_EMBEDDING_MODEL:
+        dataset_path = eval_dir / "golden_dataset_medcpt.json"
+        results_path = eval_dir / "snapshot_results_medcpt.json"
+        report_path = eval_dir / "snapshot_report_medcpt.md"
+    else:
+        dataset_path = eval_dir / "golden_dataset.json"
+        results_path = eval_dir / "snapshot_results_bge_large.json"
+        report_path = eval_dir / "snapshot_report_bge_large.md"
 
     print(f"Loading queries from {dataset_path}")
     if not dataset_path.exists():
@@ -132,21 +139,7 @@ def run_evaluation():
     with open("eval/ragas_data_checkpoint.json", "w") as f:
         json.dump(ragas_data, f, indent=2)
 
-    print("Running RAGAS Evaluation...")
-    ragas_dataset = Dataset.from_dict(ragas_data)
-    ragas_llm = LangchainLLMWrapper(eval_llm)
-    ragas_emb = LangchainEmbeddingsWrapper(eval_embeddings)
-    ragas_results = None
-    try:
-        ragas_results = evaluate(
-            ragas_dataset,
-            metrics=[faithfulness(), answer_relevancy(), context_precision(), context_recall()],
-            llm=ragas_llm,
-            embeddings=ragas_emb
-        )
-        print("RAGAS Results:", ragas_results)
-    except Exception as e:
-        print(f"RAGAS evaluation failed: {e}")
+    print("Skipping RAGAS Evaluation due to slow inference times on local GPU.")
 
     print(f"Saving results to {results_path}")
     with open(results_path, "w") as f:

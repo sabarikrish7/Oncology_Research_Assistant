@@ -8,7 +8,7 @@ from src.live_apis import LiveEvidenceFetcher
 from src.retrieval import HybridRetriever
 from src.reranking import ClinicalReranker
 from src.validation import NumericValidator, EvidenceVerifier, ConfidenceScorer
-from src.config import MAX_RETRIES, OLLAMA_MODEL, STATIC_RETRIEVAL_LIMIT, PUBMED_MAX_RESULTS, CLINICAL_TRIALS_MAX_RESULTS
+from src.config import MAX_RETRIES, OLLAMA_MODEL, STATIC_RETRIEVAL_LIMIT, PUBMED_MAX_RESULTS, CLINICAL_TRIALS_MAX_RESULTS, RERANKED_TOP_K
 
 class GraphState(TypedDict):
     query: str
@@ -50,7 +50,7 @@ def retrieve_node(state: GraphState) -> dict:
     if route in ["trials", "all"] or "NCT" in query.upper():
         merged_docs.extend(api_fetcher.fetch_clinical_trial(query, max_results=CLINICAL_TRIALS_MAX_RESULTS))
     if route in ["conceptual", "all"]:
-        merged_docs.extend(static_retriever.search(query, limit=STATIC_RETRIEVAL_LIMIT))
+        merged_docs.extend(static_retriever.hybrid_search(query, limit=STATIC_RETRIEVAL_LIMIT))
 
     return {"documents": merged_docs, "steps": state["steps"] + ["retrieve"]}
 
@@ -71,7 +71,8 @@ def augment_node(state: GraphState) -> dict:
     return {"query": clean_query, "route": "all", "steps": state["steps"] + ["augment"]}
 
 def generate_node(state: GraphState) -> dict:
-    formatted_context = "\n".join([f"[{d['source']} {d['id']}] {d['text']}" for d in state["documents"]])
+    top_docs = state["documents"][:RERANKED_TOP_K]
+    formatted_context = "\n".join([f"[{d['source']} {d['id']}] {d['text']}" for d in top_docs])
     system_prompt = """You are an expert Oncology AI Assistant. 
 Answer the question strictly using the provided context blocks. 
 For EVERY claim or metric you extract, you MUST append the exact Source ID bracket to the end of the sentence.
